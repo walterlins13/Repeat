@@ -16,7 +16,7 @@ public class Salário {
 	    	sal = in.nextDouble(); 
 	    	while(sal < 1212) {
 	    		System.out.println("Salário inválido. Digite outro valor: ");
-	    	        sal = in.nextDouble();
+	    	    sal = in.nextDouble();
 	    	}
 	    	if(sal > 4000) {
 	    		aumento = (5.0 / 100) * sal;

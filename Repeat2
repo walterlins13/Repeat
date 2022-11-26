@@ -9,8 +9,8 @@ public class Salário {
         Scanner in = new Scanner(System.in);
 	    double sal, aumento, novosal;
 	    char resp;
+	    System.out.println("Programa para cálculo de salário");
 	    do { 
-	    	System.out.println("Programa para cálculo de salário");
 	    	System.out.println("");
 	    	System.out.println("Informe o atual salário do funcionário em questão: ");
 	    	sal = in.nextDouble(); 
